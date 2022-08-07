@@ -1,0 +1,92 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: Dana;
+}
+.head{
+    background-color: black;
+    height: 80px;
+    width: 100%;
+    background: linear-gradient(45deg, red 30%, orange 60%);
+}
+.inner-header{
+    height: 100%;
+    width: 1000px;
+    margin: 0px auto;
+}
+.log span{
+    font-size: 20px;
+}
+.log{
+    font-style: italic;
+    font-family: sans-serif;
+    display: table;
+    float: left;
+    height: 100%;
+}
+.log h1{
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+}
+.nav{
+    float: right;
+    height: 100%;
+}
+.nav a{
+    text-decoration: none;
+    color: black;
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+}
+.nav li{
+    display: table;
+    height: 100%;
+    float: left;
+    padding: 0px 20px;
+    list-style: none;
+}
+.nav li:last-child{
+    padding-right: 0px;
+}
+.body{
+    margin: 10px;
+    padding: 10px;
+}
+.title h2{
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+}
+.title{
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 2px 5px 30px rgb(0 0 0 / 10%);
+    text-align: center;
+    line-height: 3rem;
+}
+.description img{
+    padding: 6px;
+    box-shadow: 2px 5px 30px rgb(0 0 0 / 10%);
+}
+.footer{
+    background: rgb(49, 49, 49);
+    color: white;
+    padding: 0px;
+    margin-top: 10px;
+    box-shadow: 2px 5px 30px rgb(0 0 0 / 10%);
+    text-align: center;
+    line-height: 3rem;   
+}
+.introduse{
+    display: flex;
+}
+.introduse p{
+    padding: 40px;
+    text-align: center;
+    flex: 50%;
+    display: table-cell;
+    vertical-align: middle;
+}
